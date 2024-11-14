@@ -1,0 +1,312 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.main-container {
+  background-color: white;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 20px auto;
+  margin-top: 6rem;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.leftPanel {
+  width:50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+.leftPanel h2,h4{
+  color: sandybrown;
+}
+.leftPanel H2{
+  font-size: 18px;
+}
+.header{
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+  .header h2{
+    font-size: 1.8rem;
+    color: black;
+  }
+  .header span{
+    color: sandybrown;
+  }
+
+.header h4{
+  font-size: 14px;
+  font-weight: bold;
+  color: #a49f9f;
+  margin-top: 0.4rem;
+}
+.contactbox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+
+.contactbox .icon {
+  border-radius: 2rem;
+  padding: 6.5px 4px;
+  border: 5px solid sandybrown;
+  color: sandybrown;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.contactbox .contact-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  gap: 3%;
+  margin-top: 0.3rem;
+}
+.contact-details p{
+  color: #6d6c6c;
+}
+.profile {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1rem;
+}
+
+.profile h2 {
+  font-size: 18px;
+}
+.profile p{
+  font-size: 14px;
+  color: #6d6c6c;
+}
+
+.profile .description>:nth-child(1) {
+  margin-top: 3%;
+}
+.workExperience {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-left: 1rem;
+}
+.workExperience ul{
+  list-style: none;
+}
+.workExperience h2 {
+  font-size: 18px;
+  margin-bottom:1rem;
+}
+.workExperience ul.list1 li p {
+  margin-bottom: 0.3rem; /* Adjust the margin value as needed */
+}
+.list1 li p:nth-child(1) {
+  color: rgb(85, 79, 79);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.list1 li p:nth-child(2) {
+  font-size: 14px;
+  color:  rgb(85, 79, 79);
+  font-weight: 600;
+  
+}
+
+
+.list1 li p:nth-child(3) {
+  color: #6d6c6c;
+  font-size: 14px;
+}
+.workExperience ul.list1 li{
+  margin-bottom:1rem;
+}
+.workExperience ul {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+}
+
+.workExperience ul:before {
+  content: "";
+  position: absolute;
+  left: 0.4rem; /* Adjust based on the distance you want the line from the bullets */
+  top: 0;
+  bottom: 0;
+  width: 2px; /* Adjust based on the thickness you want */
+  background-color: sandybrown;
+}
+
+.workExperience ul li {
+  position: relative;
+  padding-left: 2rem; /* Adjust based on the distance you want the text from the line */
+  margin-bottom: 20px;
+}
+
+.workExperience ul li:before {
+  content: "\f111";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 0.1rem;
+  top: 0;
+  color: sandybrown;
+}
+
+
+
+.reference h2{
+  margin-left: 1rem;
+}
+.reference {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+
+}
+.refe{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2rem;
+
+}
+.reference ul p{
+  margin-bottom: 0.7rem;
+}
+.reference ul li:nth-child(1){
+  border-right: 6px solid sandybrown; 
+  padding-right: 2rem;
+}
+.refe p:nth-child(1)
+{
+  font-weight: bold;
+  color: sandybrown;
+}
+.refe p:nth-child(2)
+{
+  color: #6d6c6c;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.refe p:nth-child(3)
+{
+  color: #6d6c6c;
+  font-size: 14px;
+
+}
+.refe p:nth-child(4)
+{
+  color: #6d6c6c;
+  font-size: 14px;
+}
+.refe p:nth-child(5)
+{
+  color: #6d6c6c;
+  font-size: 14px;
+}
+.rightPanel {
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  flex-direction: column ;
+   width: 30%;
+}
+
+.rightPanel .Education ul li { 
+  list-style: none;
+}
+.rightPanel h2 {
+  margin-top: 1rem; 
+  margin-bottom: 1rem; 
+  color: sandybrown;
+  font-size: 18px;
+}
+
+.Education {
+  margin-top: 2rem;
+  margin-left: 2.2rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+.Education p {
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+.list3 li p:nth-child(1)
+ {
+  font-weight: bold;
+  color: #a49f9f;
+}
+
+.list3 li p:nth-child(2) {
+  color: sandybrown;
+  font-size: 14px;
+  font-weight: bolder;
+  
+}
+.list3 li p:nth-child(3) {
+  color: #6d6c6c;
+  font-size: 14px;
+  font-weight: bold;
+ 
+}
+.Education ul.list3 li{
+  margin-bottom: 1rem;
+}
+.language{
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-left: 2.2rem;
+}
+.languagelist{
+  margin-left: 1rem;
+}
+.languagelist li p:nth-child(1) {
+  font-weight: bold;
+  color: #6d6c6c;
+  margin-bottom: 1.5rem;
+}
+.skills {
+  margin-left: 2.2rem;
+  width: 100%;
+}
+.skillslist{
+  margin-left: 1rem;
+}
+.skillslist li p:nth-child(1) {
+  font-weight: bold;
+  color: #6d6c6c;
+  margin-bottom:1rem;
+}
+
+.languagelist, .skillslist li::marker{
+  color: sandybrown;
+}
